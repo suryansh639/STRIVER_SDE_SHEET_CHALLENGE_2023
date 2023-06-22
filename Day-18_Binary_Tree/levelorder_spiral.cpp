@@ -1,6 +1,3 @@
-/*
-    Problem Link: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
-*/
 
 vector<vector<int>> zigzagLevelOrder(TreeNode *root) {
     // edge case
