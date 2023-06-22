@@ -1,6 +1,4 @@
-/*
-    Problem Link: https://leetcode.com/problems/reverse-words-in-a-string/
-*/
+
 
 class Solution {
 public:
