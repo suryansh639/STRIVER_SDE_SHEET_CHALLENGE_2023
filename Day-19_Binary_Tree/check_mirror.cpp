@@ -1,6 +1,3 @@
-/*
-    Problem Link: https://leetcode.com/problems/symmetric-tree/
-*/
 
 // helper function for sequential comparison
 bool isMirror(TreeNode *ls, TreeNode *rs) {
