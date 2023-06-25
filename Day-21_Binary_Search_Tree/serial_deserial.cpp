@@ -1,6 +1,5 @@
 
-// encode a tree into a single string
-// preorder tree traversal
+
 string serialize(TreeNode *root) {
     // base case
     if(!root)
