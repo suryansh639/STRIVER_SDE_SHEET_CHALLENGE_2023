@@ -1,6 +1,3 @@
-/*
-    Problem Link: https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
-*/
 
 // encode a tree into a single string
 // preorder tree traversal
