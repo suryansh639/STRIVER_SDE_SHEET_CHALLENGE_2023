@@ -1,6 +1,3 @@
-/*
-    Problem Link: https://practice.geeksforgeeks.org/problems/check-mirror-in-n-ary-tree1528/1#
-*/
 
 int checkMirrorTree(int n, int e, int A[], int B[]) {
     vector<stack<int>> s(n + 1);
