@@ -5,6 +5,7 @@ public:
     priority_queue<int> maxHeap; // max of the left part
     priority_queue<int, vector<int>, greater<int>> minHeap; // min of right part
 
+
     void addNum(int num) {
         // left side of the array
         if(maxHeap.empty() || num <= maxHeap.top())
