@@ -1,6 +1,4 @@
-/*
-    Problem Link: https://www.interviewbit.com/problems/distinct-numbers-in-window/#
-*/
+
 
 vector<int> Solution::dNums(vector<int> &A, int k) {
     vector<int> results;
