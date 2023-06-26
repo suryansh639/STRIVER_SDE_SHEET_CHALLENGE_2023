@@ -1,6 +1,3 @@
-/*
-    Problem Link: https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1
-*/
 
 vector<int> kthLargest(int k, int arr[], int n) {
     vector<int> results(k - 1, -1); // no window of size k found
