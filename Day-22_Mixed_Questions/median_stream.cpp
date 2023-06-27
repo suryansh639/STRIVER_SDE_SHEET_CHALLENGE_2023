@@ -1,11 +1,10 @@
-/*
-    Problem Link: https://leetcode.com/problems/find-median-from-data-stream/
-*/
+
 
 class MedianFinder {
 public:
     priority_queue<int> maxHeap; // max of the left part
     priority_queue<int, vector<int>, greater<int>> minHeap; // min of right part
+
 
     void addNum(int num) {
         // left side of the array
