@@ -1,6 +1,6 @@
 
 vector<int> kthLargest(int k, int arr[], int n) {
-    vector<int> results(k - 1, -1); // no window of size k found
+    vector<int> results(k - 1, -1); 
     priority_queue<int, vector<int>, greater<int>> pq; // min heap
     // iterate the stream of numbers 
     for(int i = 0; i < k; i++)

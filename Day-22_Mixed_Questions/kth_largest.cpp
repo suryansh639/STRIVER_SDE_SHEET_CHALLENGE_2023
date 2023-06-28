@@ -1,6 +1,3 @@
-/*
-    Problem Link: https://leetcode.com/problems/kth-largest-element-in-an-array/
-*/
 
 int findKthLargest(vector<int> &nums, int k) {
     priority_queue<int, vector<int>, greater<int>> pq;
